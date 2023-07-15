@@ -1,9 +1,8 @@
 import React from "react";
-// import { useState } from "react";
-import FormInput from "./input";
-import FormLabel from "./label";
+// import FormInput from "./input";
+// import FormLabel from "./label";
 
-function MyForm(props) {
+function Form(props) {
 
     return (
         <div className="row align-items-center" style={{height: "85vh"}}>
@@ -25,4 +24,4 @@ function MyForm(props) {
 }
 
 
-export default MyForm;
+export default Form;
