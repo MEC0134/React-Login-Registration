@@ -4,7 +4,14 @@ import Form from "./form-component/Form";
 
 
 function Register() {
-    return <Form />
+    return (
+        <Form
+            formTitle="Register"
+            btnText="Register"
+
+        />
+    );
+
 }
 
 

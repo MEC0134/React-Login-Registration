@@ -17,6 +17,10 @@ header {
 }
 
 
+.home-link {
+    color: black;
+    text-decoration: none;
+}
 
 header h1 {
     color: #000;
@@ -100,18 +104,30 @@ p {
 /* Form Styles */
 
 .form-frame {
-    background-color: #E9FFC2;
+    background-color: #ecf0f1;
+    text-align: center;
     border-radius: 2%;
-    height: 62%;
+    border: 1px solid #000;
+    height: 480px;
 }
 
 .form-title {
     text-align: center;
-    margin: 1.8rem 0;
+    margin: 1.1rem 0;
 }
 
 input {
     margin: 10px 0;
+    width: 30rem;
+}
+
+.submit-btn {
+    background-color: #2d3436;
+    margin-top: 12px;
+}
+
+.submit-btn:hover {
+    background-color: #d17300;
 }
 
 /* Footer Styles */

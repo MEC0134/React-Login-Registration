@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import WbSunnyOutlinedIcon from '@mui/icons-material/WbSunnyOutlined';
 import WbCloudyOutlined from '@mui/icons-material/WbCloudyOutlined';
 import ThunderstormOutlinedIcon from '@mui/icons-material/ThunderstormOutlined';
@@ -18,8 +18,8 @@ function Home() {
                 <main>
                     <h1 className="cover-heading">Welcome to  Clima...</h1>
                     <p className="lead">your favorite weather app.</p>
-                    <Link className="nav-link register" to="./Register">Register</Link>
-                    <Link className="nav-link login" to="/Login">Login</Link>
+                    <NavLink className="nav-link register" to="/Register">Register</NavLink>
+                    <NavLink className="nav-link login" to="/Login">Login</NavLink>
                 </main>
             </div>
         </div>
